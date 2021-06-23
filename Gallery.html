@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+
+<body>
+    <div id="gallery" class="gallery">
+        <img id="img_start" src="/img/1.jpg">
+        <br>
+        <button class="button" onclick="previous()"> 
+            &lt&lt </button>
+        <button class="button" onclick="next()"> &gt&gt </button>
+        <button class="button" onclick="popupwindow()">Close</button>
+
+    </div>
+    <img src="/img/1.jpg" alt="" onclick="birds(this)">
+    <img src="/img/2.jpg" alt="" onclick="birds(this)">
+    <img src="/img/3.png" alt="" onclick="birds(this)">
+    <img src="/img/4.jpg" alt="" onclick="birds(this)">
+    <img src="/img/5.jpg" alt="" onclick="birds(this)">
+    <img src="/img/6.jpg" alt="" onclick="birds(this)">
+
+
+
+
+    <script src="gallery.js"></script>
+</body>
+
+</html>
